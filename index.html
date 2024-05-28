@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Subscription</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <img class="backgroundImage" src="bg.jpg" alt="background image">
+    <div class="container">
+        <div class="details">
+            <h3>Coming Soon!</h3>
+            <h1>Our Brand New <br> Website is on its way.</h1>
+            <p>Subscribe for more details.</p>
+            <form class="inputs" name="submit-to-google-sheet">
+                <input type="email" id="email" name="email" placeholder="Your email id.." required>
+                <img type="submit" src="send-icon.png" id="submit" name="submit" onclick="submitForm(event)">
+            </form>
+            <output id="display"></output>
+        </div>
+    </div>
+</body>
+
+</html>
